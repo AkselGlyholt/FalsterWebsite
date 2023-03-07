@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap");
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 650px;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+
+.each-slide-effect span {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.each-slide-effect p {
+  color: white;
+  margin-top: 33px;
+  padding-bottom: 49px;
+  font-size: 20px;
+}
+
+.default-nav {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 0 !important;
+  height: 120px !important;
+  width: 50px !important;
+  transition: all 300ms ease;
+}
+
+.default-nav svg path {
+  fill: white !important;
+  transition: all 300ms ease;
+}
+
+.default-nav:hover svg path {
+  fill: rgb(199, 199, 199) !important;
+}
+
+.default-nav:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.image__slider button {
+  background-color: #1ec6b6;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 18px 41px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.image__slider button:hover {
+  background-color: #ff4a52;
+}
