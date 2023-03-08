@@ -4,6 +4,7 @@ import Showcase from "./components/Showcase";
 import "./styles/Global.css";
 import React from "react";
 import PopularHotels from "./components/PopularHotels";
+import Carousel from "./components/ui/Carousel.jsx"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Showcase />
       <PopularHotels />
+      
     </div>
   );
 }
