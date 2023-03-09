@@ -16,25 +16,24 @@ function Book({ hotel }) {
       </figure>
       <div className="hotel__info--container">
         <div className="hotel__info-top--container">
-          <h2 className="hotel__title">Hote Baja</h2>
+          <h2 className="hotel__title">{hotel.title}</h2>
           <div className="hotel__rating">
             <FontAwesomeIcon icon="fa-solid fa-star" />
-            <h2 className="hotel__rating--number">5.0</h2>
+            <h2 className="hotel__rating--number">{hotel.rating.toFixed(2)}</h2>
           </div>
         </div>
         <div className="hotel__info-other--container">
           <div className="hotel__info">
             <FontAwesomeIcon icon="fa-solid fa-location-dot" />
-            <h2 className="hotel__info--title">Falster, Denmark</h2>
+            <h2 className="hotel__info--title">{hotel.location}</h2>
           </div>
           <div className="hotel__info">
             <FontAwesomeIcon icon="fa-solid fa-dollar-sign" />
-            <h2 className="hotel__info--title">DKK 120/Day</h2>
+            <h2 className="hotel__info--title">DKK {hotel.price}/Day</h2>
           </div>
         </div>
         <p className="hotel__para">
-          Lorem ipsum dolor sit amet, consectur dolori adipiscing elit, sed do
-          eiusmod tempor nova incididunt ut labore et dolore magna aliqua.
+          {hotel.para}
         </p>
       </div>
       <button className="hotel--button">Book Now</button>

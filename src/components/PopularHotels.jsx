@@ -15,12 +15,6 @@ function PopularHotels() {
         <div className="hotels__top--bar">
           <h1 className="hotels__title">Popular Hotels</h1>
           <div className="hotels__button--container">
-            <button className="hotels__button glide__arrow glide__arrow--left">
-              {leftText}
-            </button>
-            <button className="hotels__button glide__arrow glide__arrow--right">
-              {rightText}
-            </button>
           </div>
         </div>
       </div>
