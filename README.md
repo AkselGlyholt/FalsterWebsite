@@ -2,4 +2,4 @@
 This is an ongoing project for one of my classes. We have to find places around where I live and try to sell a tour to the places.
 
 # Look at build version
-Linked will be placed here when it's done
+Link will be placed here when it's done
