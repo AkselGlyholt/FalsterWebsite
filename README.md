@@ -1,5 +1,5 @@
 # What is this?
-This is a project I had for one of my classes. We had to find places and try to sell them to a customer.
+This is an ongoing project for one of my classes. We have to find places around where I live and try to sell a tour to the places.
 
 # Look at build version
-[link here]
+Linked will be placed here when it's done
