@@ -61,7 +61,7 @@ function TrendingDestinations() {
           ></div>
           <div className="destination__info">
             <div className="destination__info-top">
-              <h2 className="destination__title">Logo Museum Obscurum</h2>
+              <h2 className="destination__title">Museum Obscurum</h2>
               <h2 className="destination__price">249 kr</h2>
             </div>
             <p className="destination__about">
