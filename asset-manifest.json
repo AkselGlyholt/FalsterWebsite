@@ -1,7 +1,7 @@
 {
   "main.css": "/FalsterWebsite/static/css/main.b81f6322.chunk.css",
-  "main.js": "/FalsterWebsite/static/js/main.01524773.chunk.js",
-  "main.js.map": "/FalsterWebsite/static/js/main.01524773.chunk.js.map",
+  "main.js": "/FalsterWebsite/static/js/main.d775aab0.chunk.js",
+  "main.js.map": "/FalsterWebsite/static/js/main.d775aab0.chunk.js.map",
   "static/js/1.bfa17f51.chunk.js": "/FalsterWebsite/static/js/1.bfa17f51.chunk.js",
   "static/js/1.bfa17f51.chunk.js.map": "/FalsterWebsite/static/js/1.bfa17f51.chunk.js.map",
   "static/css/2.3c5c6f53.chunk.css": "/FalsterWebsite/static/css/2.3c5c6f53.chunk.css",
@@ -12,10 +12,10 @@
   "static/media/logo.png.webp": "/FalsterWebsite/static/media/logo.png.696ce94f.webp",
   "static/media/middelaldercentret1.jpg": "/FalsterWebsite/static/media/middelaldercentret1.b04d26dd.jpg",
   "static/media/MarielystStrand.webp": "/FalsterWebsite/static/media/MarielystStrand.0885a493.webp",
-  "static/media/styles.css": "/FalsterWebsite/static/media/revicons.17629a5d.ttf",
+  "static/media/styles.css": "/FalsterWebsite/static/media/revicons.2feb69cc.eot",
   "static/css/main.b81f6322.chunk.css.map": "/FalsterWebsite/static/css/main.b81f6322.chunk.css.map",
   "static/css/2.3c5c6f53.chunk.css.map": "/FalsterWebsite/static/css/2.3c5c6f53.chunk.css.map",
   "index.html": "/FalsterWebsite/index.html",
-  "precache-manifest.c6751d1a227d1a6f62ee3260a41b8410.js": "/FalsterWebsite/precache-manifest.c6751d1a227d1a6f62ee3260a41b8410.js",
+  "precache-manifest.68350a9ce0ed981a820dd89f83cabceb.js": "/FalsterWebsite/precache-manifest.68350a9ce0ed981a820dd89f83cabceb.js",
   "service-worker.js": "/FalsterWebsite/service-worker.js"
 }
