@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "akselglyholt.github.io/FalsterWebsite/precache-manifest.ccd212fc37d44beebe10f41926e4017d.js"
+  "akselglyholt.github.io/FalsterWebsite/precache-manifest.fda105d05c5343c115c48f8e61000179.js"
 );
 
 workbox.clientsClaim();
