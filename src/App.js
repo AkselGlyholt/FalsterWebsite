@@ -4,8 +4,8 @@ import Showcase from "./components/Showcase";
 import "./styles/Global.css";
 import React from "react";
 import PopularHotels from "./components/PopularHotels";
-import Carousel from "./components/ui/Carousel.jsx"
 import TrendingDestinations from "./components/TrendingDestinations";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Showcase />
       <PopularHotels />
       <TrendingDestinations />
+      <Footer />
     </div>
   );
 }

@@ -19,7 +19,7 @@ img {
 .header__left,
 .header__right {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   width: 60%;
 }
@@ -39,12 +39,16 @@ img {
 
 .header__links {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   list-style-type: none;
   padding-left: 50px;
   width: 100%;
   max-width: 440px;
+}
+
+.header__link {
+  margin-right: 62px;
 }
 
 .header__link:hover .header__link--anchor {

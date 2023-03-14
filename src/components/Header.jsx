@@ -17,18 +17,13 @@ function Header() {
             </a>
           </li>
           <li className="header__link">
-            <a href="#" className="header__link--anchor">
-              About
+            <a href="#hotels" className="header__link--anchor">
+              Hotels
             </a>
           </li>
           <li className="header__link">
-            <a href="#" className="header__link--anchor">
-              Destination
-            </a>
-          </li>
-          <li className="header__link">
-            <a href="#" className="header__link--anchor">
-              Contact
+            <a href="#destinations" className="header__link--anchor">
+              Destinations
             </a>
           </li>
         </ul>
@@ -40,12 +35,12 @@ function Header() {
         </div>
         <ul className="header__socials">
           <li className="header__social">
-            <a href="https://instagram.com" target="_blank">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon="fa-brands fa-instagram" />
             </a>
           </li>
           <li className="header__social">
-            <a href="https://instagram.com" target="_blank">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon="fa-brands fa-facebook-f" />
             </a>
           </li>

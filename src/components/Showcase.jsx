@@ -1,7 +1,6 @@
 import React from "react";
 import middelaldercenteret from "../assets/middelaldercentret1.jpg";
 import marienlyst from "../assets/MarielystStrand.webp";
-import nykRevy from "../assets/nyk-revy2023.jpg";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import "../styles/Showcase.css";

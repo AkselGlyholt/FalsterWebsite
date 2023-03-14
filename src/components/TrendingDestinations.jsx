@@ -4,25 +4,12 @@ import { GoLocation } from "react-icons/go";
 import "../styles/Trending.css";
 
 function TrendingDestinations() {
-  const data = [
-    {
-      destination: "Beachfront",
-      para: "A Trip to the Bahamas and the Carribean Ocean",
-      days: 7,
-      location: "Falster",
-      price: 99,
-      id: 1,
-    },
-  ];
-
   return (
-    <div className="destinations--wrapper">
+    <div id="destinations" className="destinations--wrapper">
       <div className="distination__left">
         <h1 className="destinations__title">Trending Destination</h1>
         <p className="destinations__para">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad
-          minim veniam.
+          Come visit some of the most popular on Falster. If you're fealing adventures then come experience the exotic crocodiles, or expeirence the collection from Cornelius S.C. Rödders
         </p>
       </div>
       <div className="distination__right">
@@ -38,7 +25,7 @@ function TrendingDestinations() {
           <div className="destination__info">
             <div className="destination__info-top">
               <h2 className="destination__title">Crocodile Zoo</h2>
-              <h2 className="destination__price">149kr</h2>
+              <h2 className="destination__price">149 kr</h2>
             </div>
             <p className="destination__about">
               The biggest collection of different crocodiles, in europe.
@@ -53,7 +40,14 @@ function TrendingDestinations() {
                 <h2 className="tag__title">FALSTER</h2>
               </div>
             </div>
-            <button className="destination__btn">Book Now</button>
+            <a
+              href="https://krokodillezoo.dk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="destination__btn"
+            >
+              Book Now
+            </a>
           </div>
         </div>
         <div className="destination">
@@ -61,17 +55,17 @@ function TrendingDestinations() {
             className="destination__image"
             style={{
               backgroundImage: `url(
-                https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/c7/80/e2/sobek-europas-storste.jpg?w=1200&h=-1&s=1
+                https://media-cdn.tripadvisor.com/media/photo-s/12/fb/7b/66/skelet.jpg
               )`,
             }}
           ></div>
           <div className="destination__info">
             <div className="destination__info-top">
-              <h2 className="destination__title">Beachfront</h2>
-              <h2 className="destination__price">149kr</h2>
+              <h2 className="destination__title">Logo Museum Obscurum</h2>
+              <h2 className="destination__price">249 kr</h2>
             </div>
             <p className="destination__about">
-              The biggest collection of different crocodiles, in europe.
+              Collection from Cornelius S.C. Rödders
             </p>
             <div className="destination__tags">
               <div className="destination__tag">
@@ -83,7 +77,14 @@ function TrendingDestinations() {
                 <h2 className="tag__title">FALSTER</h2>
               </div>
             </div>
-            <button className="destination__btn">Book Now</button>
+            <a
+              href="https://museumlollandfalster.dk/museum-obscurum/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="destination__btn"
+            >
+              Book Now
+            </a>
           </div>
         </div>
       </div>

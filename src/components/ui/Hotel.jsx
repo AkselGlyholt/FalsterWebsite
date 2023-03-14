@@ -2,8 +2,6 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Book({ hotel }) {
-  console.log(hotel);
-
   return (
     <div className="hotel">
       <div style={{

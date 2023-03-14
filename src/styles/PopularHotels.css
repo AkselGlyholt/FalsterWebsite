@@ -38,7 +38,6 @@
   color: white;
   font-size: 24px;
 }
-
 .hotels__wrapper {
   display: flex;
   flex-direction: row;
@@ -77,7 +76,7 @@
 
 .hotel__title {
   color: #243e63;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .hotel__rating {
@@ -113,7 +112,10 @@
 .hotel__info {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
+}
+
+.hotel__info:first-child {
   margin-right: 16px;
 }
 
@@ -132,6 +134,7 @@
   font-size: 14px;
   font-weight: 500;
   color: #243e63;
+  width: 100%;
 }
 
 .hotel__para {
@@ -155,6 +158,11 @@
   font-size: 18px;
   cursor: pointer;
   font-weight: 500;
+  transition: all 300ms ease;
+}
+
+.hotel--button:hover {
+  background-color: #ff4a52;
 }
 
 .carousel {
