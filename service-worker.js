@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "akselglyholt.github.io/FalsterWebsite/precache-manifest.ca5e9f10d9e24407f8e5cb17886001a2.js"
+  "/FalsterWebsite/precache-manifest.26cb404bb4507b56939b35ad639c3f49.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("akselglyholt.github.io/FalsterWebsite/index.html", {
+workbox.routing.registerNavigationRoute("/FalsterWebsite/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
