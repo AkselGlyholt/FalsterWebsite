@@ -48,21 +48,19 @@
   overflow: hidden;
   height: 561px;
   width: 384px;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px !important;
+  border-bottom-right-radius: 50px !important;
 }
 
 .hotel__img--wrapper {
-  overflow: hidden;
+  background-size: cover;
+  background-position: bottom;
   height: 256px;
-  position: relative;
 }
 
 .hotel__img {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: -10px;
+  width: inherit;
+  border-top-left-radius: 50px;
 }
 
 .hotel__info--container {

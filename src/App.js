@@ -5,6 +5,7 @@ import "./styles/Global.css";
 import React from "react";
 import PopularHotels from "./components/PopularHotels";
 import Carousel from "./components/ui/Carousel.jsx"
+import TrendingDestinations from "./components/TrendingDestinations";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Header />
       <Showcase />
       <PopularHotels />
-      
+      <TrendingDestinations />
     </div>
   );
 }

@@ -1,25 +1,26 @@
 import React from "react";
 import middelaldercenteret from "../assets/middelaldercentret1.jpg";
 import marienlyst from "../assets/MarielystStrand.webp";
-import nykRevy from "../assets/nyk-revy2023.jpg"
+import nykRevy from "../assets/nyk-revy2023.jpg";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import "../styles/Showcase.css"
+import "../styles/Showcase.css";
 
 function Showcase() {
   const images = [
     {
       image: middelaldercenteret,
-      title: "Middelaldercentret"
+      title: "Medieval Center",
     },
     {
       image: marienlyst,
-      title: "Marielyst"
+      title: "Marielyst",
     },
     {
-      image: "https://www.fof.dk/-/media/images/egne/syd-og-vestsjaelland/ture-og-rejser/nykoebing-falster-revyen-2023.jpg",
-      title: "Revykøbing"
-    }
+      image:
+        "https://www.fof.dk/-/media/images/egne/syd-og-vestsjaelland/ture-og-rejser/nykoebing-falster-revyen-2023.jpg",
+      title: "Revykøbing",
+    },
   ];
 
   return (
@@ -40,7 +41,9 @@ function Showcase() {
           style={{ backgroundImage: `url(${images[1].image})` }}
         >
           <span>{images[1].title}</span>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>
+            Enjoy the beach, play mini golf with your family and get ice cream.
+          </p>
           <button>Explore Now</button>
         </div>
       </div>
